@@ -1,0 +1,23 @@
+/* input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent; 
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+} */
+
+/* ::-webkit-datetime-edit { color: transparent; }
+:focus::-webkit-datetime-edit { color: #000; } */
+
+input[type="date"]:in-range::-webkit-datetime-edit-year-field, 
+input[type="date"]:in-range::-webkit-datetime-edit-month-field, 
+input[type="date"]:in-range::-webkit-datetime-edit-day-field {
+    color: transparent;
+}
+
+.wizard-card .wizard-header {
+    padding: 15px 0 35px;
+}
+
+.wizard-card .tab-content {
+    padding: 24px 0px;
+}
